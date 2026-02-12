@@ -26,6 +26,6 @@ SELECT title FROM movies ORDER BY title asc LIMIT 5 OFFSET 5;
 -- lesson 5
 SELECT City, Population FROM north_american_cities WHERE country = "Canada";
 SELECT City FROM north_american_cities WHERE country = "United States" Order By latitude desc;
-SELECT City FROM north_american_cities WHERE longitude < (SELECT longitude FROM north_american_cities Where city = "Chicago") Order By longitude asc;
+SELECT City FROM north_american_cities WHERE longitude < (SELECT longitude FROM north_american_cities WHERE city = "Chicago") Order By longitude asc;
 SELECT City FROM north_american_cities WHERE Country = "Mexico" ORDER BY Population desc LIMIT 2;
 SELECT City FROM north_american_cities WHERE Country = "United States" ORDER BY population desc LIMIT 2 OFFSET 2;
