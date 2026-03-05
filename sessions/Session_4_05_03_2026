@@ -1,0 +1,25 @@
+# Session – 2026-03-05
+
+## Topics covered
+- Windows
+- Analityc functions
+- Partitioning
+
+## What I understood
+- OVER()
+- PARTITION BY()
+- ORDER BY()
+
+## What is still confusing
+- Accumulative functions
+- RANK
+- DENSE_RANK()
+
+## Questions
+- 
+
+## Related concepts
+- [Concept name](../concepts/concept-name.md)
+
+## Resources used
+- See `resources/`
