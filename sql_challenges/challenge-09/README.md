@@ -19,6 +19,10 @@ COMMIT;
 SELECT account_id, owner_name, balance FROM accounts ORDER BY account_id;
 -- Expected: Alice=1000, Bob=500, Charlie=250
 
+ 
+
+ 
+
 -- Lesson 04: Class Exercises
 -- Students: work through these in order. Don't skip the verify steps.
 
